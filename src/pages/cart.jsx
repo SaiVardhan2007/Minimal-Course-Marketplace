@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
-import CartItem from './components/CartItem.jsx';
+import CartItem from '../components/cartItem.jsx';
 
 // Displays cart with coupon application
 function Cart() {

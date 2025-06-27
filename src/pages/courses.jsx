@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
-import CourseCard from './components/CourseCard.jsx';
+import CourseCard from '../components/courseCard.jsx';
 
 // Displays all available courses
 function Courses() {

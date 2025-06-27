@@ -2,8 +2,8 @@
 function Home() {
   return (
     <div className="page">
-      <h1>Minimal Bookmark Manager</h1>
-      <p>Save and organize your favorite websites!</p>
+      <h1>Minimal Course Marketplace</h1>
+      <p>Browse and purchase online courses!</p>
     </div>
   );
 }

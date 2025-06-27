@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
-import CouponCard from './components/CouponCard.jsx';
+import CouponCard from '../components/couponCard.jsx';
 
 // Displays active coupons for discounts
 function Coupons() {

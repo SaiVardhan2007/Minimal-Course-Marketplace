@@ -17,8 +17,8 @@ function Header() {
     <header>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/bookmarks">Bookmarks</Link>
-        {user && <Link to="/add-bookmark">Add Bookmark</Link>}
+        <Link to="/courses">Courses</Link>
+        <Link to="/cart">Cart</Link>
         <Link to="/coupons">Coupons</Link>
         {user ? (
           <button onClick={() => supabase.auth.signOut()}>Logout</button>
