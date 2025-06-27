@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+nav a, nav button {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.page {
+  padding: 20px;
+}
+
+.course-list, .cart-list, .coupon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course-card, .cart-item, .coupon-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.form, .coupon-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.form input, .coupon-section input {
+  padding: 5px;
+}
+
+.form button, .coupon-section button, .course-card button {
+  padding: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover, .coupon-section button:hover, .course-card button:hover {
+  background-color: #0056b3;
+}
+
+.course-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
